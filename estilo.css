@@ -1,0 +1,185 @@
+*
+
+body{
+    background: url(img/fon2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header{
+	width: 70%;
+	height: 80px;
+	padding: 0px 12%;
+	margin: 15px auto ;
+	text-align: left;
+}
+
+nav{
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+ 
+nav li{
+    display: inline-block;
+    padding:0px;
+    vertical-align: top;
+ }
+
+ nav a {
+    outline: none;
+    background: transparent;
+    border-radius: 1px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 50px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+nav a:hover{
+    background:#fff ;
+    color:rgb(250, 174, 33);
+
+}
+
+.header a {
+    color:#fff;
+    text-decoration: none;
+    background-color: #000;
+
+}
+.navigation ul {
+   margin-top: -30px;
+  margin-bottom: 10px;
+  padding: 7px;
+  margin-right: 200px;
+    list-style: none;
+    
+    }
+    
+    .navigation ul li {
+        display:inline-block;
+       
+        font-family: 'Times New Roman', Times, serif;
+         font-size: 16px;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding:10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
+        
+        background-color: #161616;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: -8px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+       
+        
+        
+    }
+
+    .cuadro1{
+        position: relative;
+        width: 1335px;
+       height: 120px;
+        background-color: #161616;
+        margin-right: 0px;
+        margin-left: 1px;
+        margin-top: 2px;
+        border-radius: 1px;
+       
+    }
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 50px;
+color: rgb(7, 7, 7);
+text-shadow: 2px 5px 5px rgb(247, 173, 37);
+}
+
+.cuadro{
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.486);
+    margin-right: 5px;
+    margin-left: 120px;
+    margin-top: 80px;
+    border-radius: 7px;
+   
+}
+.cuadro h2 {
+margin-left:5% ;
+top: -200px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+color: rgb(255, 139, 7);
+text-shadow: 2px 5px 5px rgb(19, 18, 18);
+}
+.cuadro h3 {
+    margin-left:5% ;
+    margin-right: 60%;
+    top: -200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(255, 139, 7);
+    text-shadow: 2px 5px 5px rgb(19, 18, 18);
+    }
+.cuadro p{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: rgb(255, 255, 255);
+margin-left:4% ;
+margin-right: 3%;
+text-shadow: 2px 5px 5px rgb(51, 51, 51);
+}
+
+.cuadro p b{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left:4% ;
+    margin-right: 3%;
+    text-shadow: 2px 5px 5px rgb(51, 51, 51);
+    }
+
+
+footer {
+
+ font-size: 20px;
+ color: white;
+ width: 100%;
+ position: fixed;
+ bottom: 5px;
+ text-align: center;
+ padding: 2px;
+}
+.cuamin{
+    width: 600px;
+    height: 100%;
+    background-color:transparent;
+    
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: -100px;
+    text-align: center;
+      
+}
+.cuamin2{
+    width: 230px;
+    height: 80%;
+    background-color:transparent;
+    border-radius: 5px;
+    margin-left:410px;
+   margin-top: -500px;
+   text-align: center;
+    
+}
